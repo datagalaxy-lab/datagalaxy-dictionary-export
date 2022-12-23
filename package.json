@@ -1,0 +1,19 @@
+{
+  "name": "dictionary-export",
+  "version": "1.0.0",
+  "description": "This script fetches every object of your Dictionary module and stores them in a `dictionary.json` file.",
+  "type": "module",
+  "main": "dictionary-export.js",
+  "scripts": {
+    "start": "node -r dotenv/config dictionary-export.js"
+  },
+  "author": "antoine.darinot@datagalaxy.com",
+  "license": "ISC",
+  "stackblitz": {
+    "startCommand": ""
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1"
+  }
+}
