@@ -11,7 +11,7 @@ This script fetches every object of your Dictionary module and stores them in a 
 Run the following command in order to install the script's dependencies :
 
 ```bash
-npm install
+npm ci
 ```
 
 ### 2. Editing the script's configuration
